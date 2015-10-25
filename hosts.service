@@ -1,0 +1,8 @@
+[Unit]
+Description=/etc/hosts.d maintainer
+
+[Service]
+ExecStart=/usr/local/bin/hosts-daemon
+
+[Install]
+WantedBy=multi-user.target
